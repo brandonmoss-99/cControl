@@ -4,7 +4,7 @@ def lWheel(repeats):
 	for i in range (0,repeats):
 		# chars to use for loading animation
 		for r in ['/', '-', '\\', '|']:
-			# /r is a carridge return, go back to the line start for overwriting
+			# /r is a carriage return, go back to the line start for overwriting
 			print("loading... " + r, end="\r")
 			time.sleep(1)
 	# clear the line after all done, to not leave finished wheel there
